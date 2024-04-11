@@ -4,6 +4,7 @@ kind: CustomResourceDefinition
 metadata:
   name: sparkapplications.spark.stackable.tech
   annotations:
+    argocd.argoproj.io/sync-options: Replace=true
     helm.sh/resource-policy: keep
 spec:
   group: spark.stackable.tech
