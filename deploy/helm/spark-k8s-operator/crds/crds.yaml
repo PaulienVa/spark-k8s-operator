@@ -2,7 +2,7 @@
 apiVersion: apiextensions.k8s.io/v1
 kind: CustomResourceDefinition
 metadata:
-  name: sparkapplications
+  name: sparkapplications.spark.stackable.tech
   annotations:
     helm.sh/resource-policy: keep
 spec:
@@ -11,9 +11,9 @@ spec:
     categories: []
     kind: SparkApplication
     plural: sparkapplications
+    singular: sparkapplication
     shortNames:
       - sc
-    singular: sparkapplication
   scope: Namespaced
   versions:
     - additionalPrinterColumns: []
