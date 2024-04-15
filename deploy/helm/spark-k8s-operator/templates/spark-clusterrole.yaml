@@ -52,8 +52,7 @@ metadata:
   labels:
   {{- include "operator.labels" . | nindent 4 }}
 rules:
-  - apiGroups:
-      - ""
+  - apiGroups: ["", "batch", "extensions", "apps", "spark.stackable.tech"]
     resources:
       - configmaps
       - persistentvolumeclaims
