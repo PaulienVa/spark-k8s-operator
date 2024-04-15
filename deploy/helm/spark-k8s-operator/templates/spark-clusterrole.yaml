@@ -62,6 +62,8 @@ rules:
       - serviceaccounts
       - services
       - statefulsets
+      - sparkhistoryservers
+      - sparkapplications
     verbs:
       - create
       - delete
