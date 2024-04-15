@@ -37,12 +37,12 @@ volumes:
 - configMap
 - downwardAPI
 - emptyDir
+- ephemeral
 - hostPath
 - nfs
 - persistentVolumeClaim
 - projected
 - secret
-- ephemeral
 {{ end }}
 ---
 apiVersion: rbac.authorization.k8s.io/v1
