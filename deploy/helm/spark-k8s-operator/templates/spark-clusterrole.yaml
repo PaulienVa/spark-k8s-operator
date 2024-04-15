@@ -79,7 +79,6 @@ rules:
       - events
     verbs:
       - create
-{{ if .Capabilities.APIVersions.Has "security.openshift.io/v1" }}
   - apiGroups:
       - security.openshift.io
     resources:
@@ -88,4 +87,3 @@ rules:
       - spark-k8s-scc
     verbs:
       - use
-{{ end }}
