@@ -119,10 +119,9 @@ rules:
       - patch
       - update
       - watch
-  - apiGroups: ["rbac.authorization.k8s.io"]
+  - apiGroups: ["", "rbac.authorization.k8s.io"]
     resources:
       - rolebindings
-      - serviceaccounts
     verbs:
       - create
       - delete
