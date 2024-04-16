@@ -45,7 +45,6 @@ volumes:
 - secret
 {{ end }}
 ---
-# waar wordt de SA gezet die gebruikt wordt 
 apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRole
 metadata:
@@ -93,7 +92,7 @@ rules:
     verbs:
       - use
   apiVersion: rbac.authorization.k8s.io/v1
---- 
+---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRole
 metadata:
