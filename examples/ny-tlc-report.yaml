@@ -15,7 +15,6 @@ data:
     1,2021-07-01 00:28:56,2021-07-01 00:36:11,1,1.80,1,N,90,144,1,7.5,3,0.5,2,0,0.3,13.3,2.5
     1,2021-07-01 00:45:10,2021-07-01 00:52:46,1,2.00,1,N,114,48,1,8.5,3,0.5,2.45,0,0.3,14.75,2.5
 ---
-# waar wordt de SA gezet die gebruikt wordt 
 apiVersion: spark.stackable.tech/v1alpha1
 kind: SparkApplication
 metadata:
