@@ -72,6 +72,11 @@ rules:
       - patch
       - update
       - watch
+  - apiGroups: ["rbac.authorization.k8s.io"]
+    resources:
+      - rolebindings
+    verbs:
+      - patch
   - apiGroups:
       - events.k8s.io
     resources:
