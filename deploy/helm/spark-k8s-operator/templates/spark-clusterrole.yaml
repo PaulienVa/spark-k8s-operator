@@ -110,6 +110,7 @@ rules:
       - statefulsets
       - sparkhistoryservers
       - sparkapplications
+      - jobs
     verbs:
       - create
       - delete
