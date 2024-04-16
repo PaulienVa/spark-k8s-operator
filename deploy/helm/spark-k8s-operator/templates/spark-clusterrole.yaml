@@ -91,7 +91,6 @@ rules:
       - spark-k8s-scc
     verbs:
       - use
-  apiVersion: rbac.authorization.k8s.io/v1
 ---
 apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRole
